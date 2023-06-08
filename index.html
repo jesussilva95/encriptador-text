@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de Texto Alura</title>
+</head>
+<body>
+    <main>
+   
+        <section>
+                <form action="">
+                    <div>
+                        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese su texto aqui">    
+                    </div>
+                    
+                    <div class="advertencia">
+                       
+                        <p class="advertencia-text">Solo letras minusculas, sin acentos: </p>
+                    </div>
+                    <div class="btn">
+                        <input type="button" value="encriptar!" id="btn-encriptar" value="input-texto" class="btn-encriptar">
+
+                        <input type="button" value="desencriptar!" id="btn-desencriptar" class="btn-desencriptar">
+                    </div>
+                    
+                </form>
+        </section>
+        <section class="caja-salida">
+            <textarea  id="textResultado" name="message-salida" rows="10" cols="35" placeholder="Resultado de la transcripcion"></textarea>
+            
+        </section>
+            
+            <button id="copiar-text" type="button" value="checked" for="copiar-text" class="btn-copiar">Copiar</button>
+
+    </main>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>

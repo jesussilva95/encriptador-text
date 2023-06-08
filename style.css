@@ -1,0 +1,113 @@
+
+body{
+position: relative;
+width: 1440px;
+height: 1024px;
+background: #F3F5FC;
+}
+
+.text-input{
+    margin: 0 1.5%;
+    position: absolute;
+    width: 450px;
+    height: 100px;
+    left: 80px;
+    top: 140px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;  
+    color: #0A3871;
+    border-radius: 20px;
+}
+.caja-salida{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    left: 650px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+.advertencia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 140px;
+    top: 450px;
+}
+.advertencia-text{
+    width: 228px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.btn-encriptar{
+    border-radius: 24px;
+    gap: 8px;
+    flex-direction: row;
+    padding: 24px;
+    width: 200px;
+    height: 67px;
+    background: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.btn-desencriptar{
+    box-sizing: border-box;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    gap: 8px;
+    flex-direction: row;
+    padding: 24px;
+    width: 200px;
+    height: 67px;
+    background: #D8DFE8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 500px;
+    height: 67px;
+    left: 50px;
+    top: 500px;
+}
+.btn-copiar{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 150px;
+    height: 67px;
+    left: 650px;
+    top: 500px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
